@@ -13,9 +13,9 @@ Execution time was measured across **30 runs** for each matrix size:
 
 | Matrix Dimensions | Total Pixels | Average Execution Time (ms) |
 |-------------------|--------------|-----------------------------|
-| $10 \times 10$     | 100          |    0.0004 ms               |
-| $100 \times 100$   | 10,000       |         0.0084 ms          |
-| $1000 \times 1000$ | 1,000,000    |      0.6788 ms             |
+| $10 \times 10$     | 100          |    0.0008 ms               |
+| $100 \times 100$   | 10,000       |         0.0101 ms          |
+| $1000 \times 1000$ | 1,000,000    |      0.6868 ms             |
 
 ### Performance Analysis
 - **Scalability:** Execution time scales linearly $O(N)$ relative to pixel count $N = H \times W$.
