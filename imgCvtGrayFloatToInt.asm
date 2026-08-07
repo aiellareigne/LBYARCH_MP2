@@ -19,7 +19,7 @@ imgCvtGrayFloatToInt:
 .loop:
     movss   xmm0, [rdx]
     mulss   xmm0, xmm1
-    cvtss2si eax, xmm0
+    cvtss2si r10d, xmm0
 
     test    eax, eax
     jge     .check_max
@@ -32,7 +32,7 @@ imgCvtGrayFloatToInt:
     mov     eax, 255
 
 .store:
-    mov     [rcx], al
+    mov     [rcx], r10b
 
     add     rdx, 4
     inc     rcx
