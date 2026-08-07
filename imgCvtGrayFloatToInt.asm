@@ -21,15 +21,15 @@ imgCvtGrayFloatToInt:
     mulss   xmm0, xmm1
     cvtss2si r10d, xmm0
 
-    test    eax, eax
+    test    r10d, r10d
     jge     .check_max
-    xor     eax, eax
+    xor     r10d, r10d
     jmp     .store
 
 .check_max:
-    cmp     eax, 255
+    cmp     r10d, 255
     jle     .store
-    mov     eax, 255
+    mov     r10d, 255
 
 .store:
     mov     [rcx], r10b
