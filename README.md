@@ -24,7 +24,7 @@ Execution time was measured across **30 runs** for each matrix size:
 ---
 
 ## Output & Correctness Check (Screenshot)
-<img width="1064" height="501" alt="Unknown-2" src="https://github.com/user-attachments/assets/e5ae3fbf-9d99-47dd-bbe1-4edeccfc3cdc" />
+<img width="1064" height="501" alt="Evangelista_MP2 Output" src="https://github.com/user-attachments/assets/e5ae3fbf-9d99-47dd-bbe1-4edeccfc3cdc" />
 
 
 ---
