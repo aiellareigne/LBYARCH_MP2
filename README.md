@@ -13,9 +13,9 @@ Execution time was measured across **30 runs** for each matrix size:
 
 | Matrix Dimensions | Total Pixels | Average Execution Time (ms) |
 |-------------------|--------------|-----------------------------|
-| $10 \times 10$     | 100          |    0.0008 ms               |
-| $100 \times 100$   | 10,000       |         0.0101 ms          |
-| $1000 \times 1000$ | 1,000,000    |      0.6868 ms             |
+| $10 \times 10$     | 100          |    0.0006 ms               |
+| $100 \times 100$   | 10,000       |         0.0105 ms          |
+| $1000 \times 1000$ | 1,000,000    |      0.6608 ms             |
 
 ### Performance Analysis
 - **Scalability:** Execution time scales linearly $O(N)$ relative to pixel count $N = H \times W$.
@@ -24,8 +24,7 @@ Execution time was measured across **30 runs** for each matrix size:
 ---
 
 ## Output & Correctness Check (Screenshot)
-<img width="1064" height="501" alt="Evangelista_MP2 Output" src="https://github.com/user-attachments/assets/e5ae3fbf-9d99-47dd-bbe1-4edeccfc3cdc" />
-
+<img width="647" height="467" alt="att qkZB3WDEKmvICp-xw-nTgDTPHgvN2eIq0tObuUy4ckY" src="https://github.com/user-attachments/assets/e3608ac3-31ac-4175-964d-563422a5cbdf" />
 
 ---
 
